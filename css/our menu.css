@@ -1,0 +1,487 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #fdf3ca;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.logo{
+	height: 70px;
+	width: 70px;
+	margin-top: 10px;
+}
+.div1{
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	background-color:#fdf3ca;
+	opacity: 0.9;
+	z-index: 2;
+}
+
+.header{
+	list-style: none;
+	position: fixed;
+	margin-left: 7%;
+
+}
+
+.header li{
+	float: left;
+	color: white;
+}
+.header a{
+	text-decoration: none;
+}
+h1{
+	font-size: 50px; 
+	color: #0000ff;
+	font-family: akrobat black;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+	margin-left: 30%;
+	margin-top: 15px;
+}
+
+
+.nav ul{
+	list-style: none;
+	position: fixed;
+	float: left;
+
+}
+
+.nav ul li{
+	display: inline-block;
+	padding: 15px;
+}
+.nav ul li a{
+	text-decoration: none;
+	font-family: akrobat;
+	font-size: 25px;
+	color: black;
+}
+.nav ul li a:hover{
+	color: #0000ff;
+	transition: 0.2s;
+}
+.nav ul li a:active{
+	color: red;
+}
+
+#this{
+	color: red;
+}
+
+.bgfordiv1{
+	height: 100px;
+	width: 100%;
+	background-color: #fdf3ca;
+}
+
+.div2{
+	height: 500px;
+	width: 100%;
+}
+.div2 img{
+	height: 500px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#vegPizzaContainer{
+	height: 500px;
+	width: 100%;
+	margin-top: 20px;
+	/*background-color: pink;	*/
+}
+#vegPizzaContainer h2{
+	font-family: akrobat;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+#vegPizzaContainer ul{
+	list-style: none;
+}
+#vegPizzaContainer ul li{
+	float: left;
+	height: 300px;
+	width: 20%;
+	margin-left: 4%;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px black dotted;
+	border-radius: 5px;
+}
+
+#vegPizzaContainer .logoContainer{
+	height: 85%;
+	width: 100%;
+	border-bottom: 1px black dotted;
+}
+#vegPizzaContainer .logoContainer img{
+	height: 220px;
+	width: 220px;
+	margin-left: 15%;
+	
+}
+#vegPizzaContainer .logoContainer p{
+	display: flex;
+	justify-content: center;
+	font-family: comic sans ms;
+}
+
+#vegPizzaContainer .click a{
+	text-decoration: none;
+	color: red;
+	display: flex;
+	justify-content: center;
+	font-family: akrobat black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+#nonVegPizzaContainer{
+	height: 500px;
+	width: 100%;
+	margin-top: 20px;
+	/*background-color: pink;	*/
+}
+#nonVegPizzaContainer h2{
+	font-family: akrobat;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+#nonVegPizzaContainer ul{
+	list-style: none;
+}
+#nonVegPizzaContainer ul li{
+	float: left;
+	height: 300px;
+	width: 20%;
+	margin-left: 4%;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px black dotted;
+	border-radius: 5px;
+}
+
+#nonVegPizzaContainer .logoContainer{
+	height: 85%;
+	width: 100%;
+	border-bottom: 1px black dotted;
+}
+#nonVegPizzaContainer .logoContainer img{
+	height: 220px;
+	width: 220px;
+	margin-left: 15%;
+}
+#nonVegPizzaContainer .logoContainer p{
+	display: flex;
+	justify-content: center;
+	font-family: comic sans ms;
+}
+
+#nonVegPizzaContainer .click a{
+	text-decoration: none;
+	color: red;
+	display: flex;
+	justify-content: center;
+	font-family: akrobat black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+#pizzaManiaContainer{
+	height: 500px;
+	width: 100%;
+	margin-top: 20px;
+	/*background-color: pink;	*/
+}
+#pizzaManiaContainer h2{
+	font-family: akrobat;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+#pizzaManiaContainer ul{
+	list-style: none;
+}
+#pizzaManiaContainer ul li{
+	float: left;
+	height: 300px;
+	width: 20%;
+	margin-left: 4%;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px black dotted;
+	border-radius: 5px;
+}
+
+#pizzaManiaContainer .logoContainer{
+	height: 85%;
+	width: 100%;
+	border-bottom: 1px black dotted;
+}
+#pizzaManiaContainer .logoContainer img{
+	height: 220px;
+	width: 220px;
+	margin-left: 15%;
+}
+#pizzaManiaContainer .logoContainer p{
+	display: flex;
+	justify-content: center;
+	font-family: comic sans ms;
+}
+
+#pizzaManiaContainer .click a{
+	text-decoration: none;
+	color: red;
+	display: flex;
+	justify-content: center;
+	font-family: akrobat black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+#sideOrderContainer{
+	height: 500px;
+	width: 100%;
+	margin-top: 20px;
+	/*background-color: pink;	*/
+}
+#sideOrderContainer h2{
+	font-family: akrobat;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+#sideOrderContainer ul{
+	list-style: none;
+}
+#sideOrderContainer ul li{
+	float: left;
+	height: 300px;
+	width: 20%;
+	margin-left: 4%;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px black dotted;
+	border-radius: 5px;
+}
+
+#sideOrderContainer .logoContainer{
+	height: 85%;
+	width: 100%;
+	border-bottom: 1px black dotted;
+}
+#sideOrderContainer .logoContainer img{
+	height: 220px;
+	width: 220px;
+	margin-left: 15%;
+}
+#sideOrderContainer .logoContainer p{
+	display: flex;
+	justify-content: center;
+	font-family: comic sans ms;
+}
+
+#sideOrderContainer .click a{
+	text-decoration: none;
+	color: red;
+	display: flex;
+	justify-content: center;
+	font-family: akrobat black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+
+#vegPizzaContainer ul li:hover, #nonVegPizzaContainer ul li:hover, #pizzaManiaContainer ul li:hover, #sideOrderContainer ul li:hover{
+	transform: scale(1.08);
+	transition: 0.15s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.div5{
+	height:350px;
+	width: 100%;
+	margin-top: 20px;
+	background-color: #1a2735;
+}	
+	
+.div5 .footer1{
+	height: 80%;
+	width: 100%;
+	background-color: #222e3a;
+	border-bottom: 1px dotted white;
+}
+/*.div5 .footer1 ul{
+}*/
+.div5 .footer1 ul li{
+	display: inline-block;
+	height: 200px;
+	width: 20%;
+	margin-left: 4%;
+	margin-top: 30px;
+}
+.div5 .footer1 ul li h3{
+	color: #516376;
+	font-family: akrobat black;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.div5 .footer1 ul li p a{
+	text-decoration: none;
+	color: white;
+	font-family: akrobat;
+	font-size: 20px;
+}
+
+
+
+
+
+
+.div5 .footer2{
+	display: flex;
+	color: #516376;
+	justify-content: center;
+	margin-top: 25px;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
